@@ -22,7 +22,7 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #4b76a2 100%);
+            background: linear-gradient(135deg, #4b76a2 0%, #4b76a2 100%);
             min-height: 100vh;
             padding: 20px;
         }
@@ -37,7 +37,7 @@
         }
 
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #4b76a2 100%);
+            background: linear-gradient(135deg, #4b76a2 0%, #4b76a2 100%);
             color: white;
             padding: 40px;
             text-align: center;
@@ -70,7 +70,7 @@
 
         .progress-bar-fill {
             height: 100%;
-            background: linear-gradient(135deg, #667eea 0%, #4b76a2 100%);
+            background: linear-gradient(135deg, #4b76a2 0%, #4b76a2 100%);
             transition: width 0.5s ease;
             display: flex;
             align-items: center;
@@ -86,7 +86,7 @@
         }
 
         .instructions h2 {
-            color: #667eea;
+            color: #4b76a2;
             margin-bottom: 15px;
         }
 
@@ -112,7 +112,7 @@
         }
 
         .category-header {
-            background: linear-gradient(135deg, #667eea 0%, #4b76a2 100%);
+            background: linear-gradient(135deg, #4b76a2 0%, #4b76a2 100%);
             color: white;
             padding: 20px;
             border-radius: 8px;
@@ -134,7 +134,7 @@
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 20px;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #4b76a2;
         }
 
         .question-text {
@@ -146,7 +146,7 @@
 
         .question-type {
             display: inline-block;
-            background: #667eea;
+            background: #4b76a2;
             color: white;
             padding: 4px 12px;
             border-radius: 12px;
@@ -172,7 +172,7 @@
         }
 
         .option:hover {
-            border-color: #667eea;
+            border-color: #4b76a2;
             transform: translateX(5px);
         }
 
@@ -206,7 +206,7 @@
         }
 
         .btn {
-            background: linear-gradient(135deg, #667eea 0%, #4b76a2 100%);
+            background: linear-gradient(135deg, #4b76a2 0%, #4b76a2 100%);
             color: white;
             border: none;
             padding: 15px 40px;
@@ -257,7 +257,7 @@
         }
 
         .results-header {
-            background: linear-gradient(135deg, #667eea 0%, #4b76a2 100%);
+            background: linear-gradient(135deg, #4b76a2 0%, #4b76a2 100%);
             color: white;
             padding: 20px;
             border-radius: 8px;
@@ -363,7 +363,7 @@
         }
 
         .score-badge {
-            background: linear-gradient(135deg, #667eea 0%, #4b76a2 100%);
+            background: linear-gradient(135deg, #4b76a2 0%, #4b76a2 100%);
             color: white;
             padding: 10px 20px;
             border-radius: 20px;
@@ -376,7 +376,7 @@
             padding: 20px;
             margin-bottom: 15px;
             border-radius: 8px;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #4b76a2;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -449,7 +449,7 @@
         }
 
         .footer a {
-            color: #667eea;
+            color: #4b76a2;
             text-decoration: none;
             font-weight: 600;
         }
@@ -474,7 +474,7 @@
         .stat-value {
             font-size: 1.5em;
             font-weight: 700;
-            color: #667eea;
+            color: #4b76a2;
         }
 
         .stat-label {
@@ -484,19 +484,19 @@
 
         .final-cta {
             background: #f0f4ff;
-            border: 2px solid #667eea;
+            border: 2px solid #4b76a2;
             border-radius: 8px;
             padding: 20px;
             margin: 20px 0;
         }
 
         .final-cta h3 {
-            color: #667eea;
+            color: #4b76a2;
             margin-bottom: 10px;
         }
 
         .final-cta a {
-            color: #667eea;
+            color: #4b76a2;
             font-weight: 600;
             text-decoration: none;
         }
@@ -2022,8 +2022,8 @@
             // Add email collection form (always visible, but message changes based on completion)
             const hasCompletedSections = completedSections.length > 0;
             html += `
-                <div style="background: #f0f4ff; border: 2px solid #667eea; border-radius: 8px; padding: 20px; margin-top: 20px;">
-                    <h3 style="color: #667eea; margin-bottom: 10px;">📧 Send me my results!</h3>
+                <div style="background: #f0f4ff; border: 2px solid #4b76a2; border-radius: 8px; padding: 20px; margin-top: 20px;">
+                    <h3 style="color: #4b76a2; margin-bottom: 10px;">📧 Send me my results!</h3>
                     <p style="margin-bottom: 15px; font-size: 0.95em;">
                         ${hasCompletedSections ?
                             'Get your personalized learning path delivered to your inbox.' :
@@ -2031,7 +2031,7 @@
                     </p>
                     <div style="display: flex; gap: 10px; flex-wrap: wrap;">
                         <input type="email" id="userEmail" placeholder="your.email@example.com"
-                               style="flex: 1; min-width: 200px; padding: 12px; border: 2px solid #667eea; border-radius: 6px; font-size: 1em;">
+                               style="flex: 1; min-width: 200px; padding: 12px; border: 2px solid #4b76a2; border-radius: 6px; font-size: 1em;">
                         <button class="btn" onclick="sendResultsEmail()" style="white-space: nowrap;"
                                 ${!hasCompletedSections ? 'disabled' : ''}>
                             Send Results
@@ -2456,7 +2456,7 @@
                 return;
             }
 
-            statusEl.innerHTML = '<span style="color: #667eea;">⏳ Sending...</span>';
+            statusEl.innerHTML = '<span style="color: #4b76a2;">⏳ Sending...</span>';
 
             // Compile results data
             const resultsData = {
@@ -2626,7 +2626,7 @@
                     statusEl.innerHTML = `
                         <span style="color: #dc3545;">❌ Direct submission blocked by browser.</span><br>
                         <a href="mailto:lisa@example.com?subject=${subject}&body=${body}"
-                           style="color: #667eea; text-decoration: underline;">
+                           style="color: #4b76a2; text-decoration: underline;">
                            Click here to email your results request instead
                         </a>
                         <br><small style="color: #666;">Or try opening this page in a new tab</small>
